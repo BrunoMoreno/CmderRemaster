@@ -1,0 +1,9 @@
+e.=explorer .
+gl=git log --oneline --all --graph --decorate  $*
+ls=ls --color $*
+pwd=cd
+clear=cls
+ll=ls -la 
+gs=git status
+gp=git push
+ga=git add --all
