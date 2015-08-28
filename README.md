@@ -1,5 +1,10 @@
-# CmderRemaster
-A simple remaster the cmder to run on Windows 10
+# Cmder Remaster
+
+A remaster that works on Windows 10
+
+Latest release is **[v1.1.4.1](https://github.com/bliker/cmder/releases/tag/v1.1.4.1)**
+
+Cmder is a **software package** created out of pure frustration over absence of usable console emulator on Windows. It is based on [ConEmu](https://code.google.com/p/conemu-maximus5/) with *major* config overhaul. Monokai color scheme, amazing [clink](https://github.com/mridgers/clink) and custom prompt layout.
 
 ![Cmder Screenshot](http://i.imgur.com/4KDpa7J.png)
 
@@ -10,9 +15,9 @@ The main advantage of Cmder is portability. It is designed to be totally self-co
 ## Installation
 
 1. Download the latest release
-2. Extract
-3. (optional) Place your own executable files into the `bin` folder to be injected into your PATH.
-4. Run cmder
+1. Extract
+1. (optional) Place files into `bin` folder, it will be injected into your PATH.
+1. Run cmder
 
 *(There will be a version with installer)*
 
@@ -23,11 +28,12 @@ So you've experimented with cmder a little and want to give it a shot in a more 
 ### Shortcut to open Cmder in a chosen folder
 
 1. Open a terminal as an Administrator
-2. Navigate to the directory you have placed Cmder
-3. Execute `.\cmder.exe /REGISTER ALL`  
-   _If you get a message "Access Denied" ensure you are executing the command in an **Administrator** prompt._
+1. Navigate to the directory you have placed Cmder
+1. Execute `.\cmder.exe /REGISTER ALL`*
 
 In a file explorer window right click in or on a directory to see "Cmder Here" in the context menu.
+
+*If you get a message "Access Denied" ensure you are executing the command in an Administrator prompt.
 
 ## Keyboard shortcuts
 
@@ -57,16 +63,13 @@ For example there is one defined for you `alias e.=explorer .`
 
 All aliases will be saved in `/config/aliases` file
 
-### SSH Agent
-
-To start SSH agent simply call `agent`, which is in the `bin` folder.
-
-If you want to run SSH agent on startup, uncomment the line in `/vendor/init.bat`so it says `@call "%CMDER_ROOT%/bin/agent.cmd"`.
-
 ## Todo
 
-1. Git Bash
-2. Check for clink and git before injecting them (Sort of done)
+1. Complete PowerShell compatibility.
+2. Workaround git.exe overload after msysgit download (Granted this is an upstream issue).
+3. Redo Build/Pack scripts or remove them altogether.
+4. Git Bash
+5. Check for clink and git before injecting them
 
 ## License
 
@@ -74,8 +77,10 @@ All software included is bundled with own license
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Samuel Vasko
-Copyright (c) 2015 Bruno Moreno(remaster)
+Copyright (c) 2013 Samuel Vasko 
+
+Copyright (c) 2015 Bruno Moreno
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
