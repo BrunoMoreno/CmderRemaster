@@ -1,10 +1,12 @@
-# Cmder
+# Cmder Remaster
+
+A remaster that works on Windows 10
 
 Latest release is **[v1.1.4.1](https://github.com/bliker/cmder/releases/tag/v1.1.4.1)**
 
 Cmder is a **software package** created out of pure frustration over absence of usable console emulator on Windows. It is based on [ConEmu](https://code.google.com/p/conemu-maximus5/) with *major* config overhaul. Monokai color scheme, amazing [clink](https://github.com/mridgers/clink) and custom prompt layout.
 
-![Cmder Screenshot](http://i.imgur.com/g1nNf0I.png)
+![Cmder Screenshot](http://i.imgur.com/4KDpa7J.png)
 
 ## Why use it
 
@@ -75,7 +77,10 @@ All software included is bundled with own license
 
 The MIT License (MIT)
 
-Copyright (c) 2013 Samuel Vasko
+Copyright (c) 2013 Samuel Vasko 
+
+Copyright (c) 2015 Bruno Moreno
+
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
