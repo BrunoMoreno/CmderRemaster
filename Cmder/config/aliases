@@ -7,3 +7,9 @@ ll=ls -la
 gs=git status
 gp=git push
 ga=git add --all
+
+run=manage.py runserver
+sync=manage.py syncdb
+migre=manage.py migrate
+migrate=manage.py makemigrations
+end=deactivate
